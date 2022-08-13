@@ -4,7 +4,7 @@ This is a collection of algorithms and data-structure implemenetations in Go mad
 ## How this works
 I work with a TDD methodology. Each folder has its [name].go file and its [name]_test.go file. In order to run the go code just go to the desired path and run the following command:
 ```bash
-go test [-v] // The -v flag is optional but is handy
+go test [-v] // The -v flag is optional
 ```
 
 ## Contents

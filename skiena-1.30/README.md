@@ -1,8 +1,6 @@
 # Nearest Neighbour vs Closest Pair heuristic in the TSP problem
 This is the first introductory algorithmic thinking exercise we encounter for the book "The Algorithm Design Manual" by Steven S. Skiena, Chapter 1, problem 1.30.
 
-[Check Out the blog post](https://ggcr.vercel.app/blog/algorithms-with-go-(1):-tsp-with-heuristics)
-
 ## Table of Contents
 -  How this works
 -  Travelling Salesman Problem

@@ -84,29 +84,30 @@ func rotateRightOneByOne(head *ListNode, k int) *ListNode {
 	return head
 }
 
-// Better version
+// Improved version faster than 100% of Go submissions!
 // O(n)
 func rotateRight(head *ListNode, k int) *ListNode {
-	lengthList := getLengthLinkedList(head)
-	if lengthList == 0 || (lengthList == 0 && k == 0) || k%lengthList == 0 {
+	if head == nil {
 		return head
 	}
-	k = k % lengthList
-	nth := lengthList - k
 	currPtr := head
 	count := 1
-	prev := head
+	prevArr := []*ListNode{}
 	for {
-		if count == nth {
-			prev = currPtr
-		}
+		prevArr = append(prevArr, currPtr)
 
-		if count == lengthList {
+		if currPtr.Next == nil {
+			if count == 1 || (count == 1 && k == 0) || k%count == 0 {
+				return head
+			}
+			k = k % count
+			nth := count - k - 1
 			currPtr.Next = head
-			head = prev.Next
-			prev.Next = nil
+			head = prevArr[nth].Next
+			prevArr[nth].Next = nil
 			return head
 		}
+
 		currPtr = currPtr.Next
 		count += 1
 	}

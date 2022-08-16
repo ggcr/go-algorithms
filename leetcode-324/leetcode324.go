@@ -43,7 +43,7 @@ func wiggleSort(nums []int) {
 	sorted_arr := sort.IntSlice(arr)
 	// Reverse it
 	sort.Sort(sort.Reverse(sorted_arr))
-	// Find Upper Median position
+	// Find lower Median position
 	median := getMedian(nums)
 	// Higher-End
 	H := sorted_arr[0:median]

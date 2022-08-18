@@ -9,7 +9,7 @@ go test [-v] // The -v flag is optional
 
 ## Neet-Code 150
 ### Arrays & Hashing
-- [Contains Duplicate](https://github.com/ggcr/go-algorithms/tree/master/contains-duplicate) ([Leetcode 217](https://leetcode.com/problems/contains-duplicate/)): Brute force O(N^2) and Map solution O(N).
+- [Contains Duplicate](https://github.com/ggcr/go-algorithms/tree/master/contains-duplicate) ([Leetcode 217](https://leetcode.com/problems/contains-duplicate/)): Brute force O(N^2), Merge Sort method O(N logN) and Map solution O(N).
 
 ## Contents
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

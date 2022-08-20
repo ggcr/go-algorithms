@@ -15,7 +15,7 @@ go test [-v] // The -v flag is optional
 - [Contains Duplicate](https://github.com/ggcr/go-algorithms/tree/master/contains-duplicate) ([Leetcode 217](https://leetcode.com/problems/contains-duplicate/)): Brute force O(N^2), Merge Sort method O(N logN) and Map solution O(N).
 - [Valid Anagram](https://github.com/ggcr/go-algorithms/tree/master/valid-anagram) ([Leetcode 242](https://leetcode.com/problems/valid-anagram/)): An efficient Hashmap solution O(N) and another implementation for detecting sub-anagrams of t contained in s!
 
-## Contents
+## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  
 - [leetcode-739](https://github.com/ggcr/go-algorithms/tree/master/leetcode-739) ([Problem in Leetcode](https://leetcode.com/problems/daily-temperatures/)): Brute force implementation O(N^2)
 - [leetcode-61](https://github.com/ggcr/go-algorithms/tree/master/leetcode-61) ([Problem in Leetcode](https://leetcode.com/problems/rotate-list/)): Linked List implementation from scratch and Rotation algorithm in O(N^2) and an improved version in O(N) time **faster than 100%** ⭐️

@@ -7,9 +7,13 @@ I work with a TDD methodology. Each folder has its [name].go file and its [name]
 go test [-v] // The -v flag is optional
 ```
 
+## Data Structures
+- [Linked List](https://github.com/ggcr/go-algorithms/tree/master/linked-list)
+
 ## Neet-Code 150
 ### Arrays & Hashing
 - [Contains Duplicate](https://github.com/ggcr/go-algorithms/tree/master/contains-duplicate) ([Leetcode 217](https://leetcode.com/problems/contains-duplicate/)): Brute force O(N^2), Merge Sort method O(N logN) and Map solution O(N).
+- [Valid Anagram](https://github.com/ggcr/go-algorithms/tree/master/valid-anagram) ([Leetcode 242](https://leetcode.com/problems/valid-anagram/)): An efficient Hashmap solution O(N) and another implementation for detecting sub-anagrams of t contained in s!
 
 ## Contents
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

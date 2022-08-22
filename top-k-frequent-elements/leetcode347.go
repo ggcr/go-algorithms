@@ -8,7 +8,6 @@
 package leetcode347
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -46,20 +45,19 @@ func topKFrequentSort(nums []int, k int) []int {
 // Time: O(N)
 // Space: O(N)
 func topKFrequent(nums []int, k int) []int {
-	fmt.Println("")
 	hashmap := make(map[int]int, len(nums))
+	bucket := make([][]int, len(nums)+1)
 	res := []int{}
+	k_aux := k
+
 	for _, v := range nums {
 		hashmap[v] += 1
 	}
-	fmt.Println(hashmap)
 
-	bucket := make([][]int, len(nums)+1)
 	for key, v := range hashmap {
 		bucket[v] = append(bucket[v], []int{key}...)
 	}
-	fmt.Println(bucket)
-	k_aux := k
+
 	for ind := len(nums); ind >= 0; ind -= 1 {
 		if len(bucket[ind]) >= k_aux {
 			return append(res, bucket[ind][:k_aux]...)
@@ -67,5 +65,6 @@ func topKFrequent(nums []int, k int) []int {
 		res = append(res, bucket[ind]...)
 		k_aux -= len(bucket[ind])
 	}
+
 	return nil
 }

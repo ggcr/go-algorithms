@@ -16,6 +16,7 @@ go test [-v] // The -v flag is optional
 - [Valid Anagram](https://github.com/ggcr/go-algorithms/tree/master/valid-anagram) ([Leetcode 242](https://leetcode.com/problems/valid-anagram/)): An efficient Hashmap solution O(N) and another implementation for detecting sub-anagrams of t contained in s!
 - [Two Sum](https://github.com/ggcr/go-algorithms/tree/master/two-sum) ([Leetcode 1](https://leetcode.com/problems/two-sum/)): Brute force O(N^2) and efficient O(N) using a hashmap.
 - [Group Anagrams](https://github.com/ggcr/go-algorithms/tree/master/group-anagrams) ([Leetcode 49](https://leetcode.com/problems/group-anagrams/)): Brute force O(N^3) and efficient O(M*N) using a hashmap.
+- [Top K Frequent Elements](https://github.com/ggcr/go-algorithms/tree/master/top-k-frequent-elements) ([Leetcode 347](https://leetcode.com/problems/top-k-frequent-elements)): Not efficient solution in O(n log n) time and an efficient Bucket Sort solution in O(n).
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

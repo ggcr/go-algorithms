@@ -52,6 +52,8 @@ func (codec *Codec) DecodeManual(strs string) []string {
 				return append(res, "")
 			}
 			return append(res, strs[init_iterator:])
+		} else if i < init_iterator {
+			continue
 		}
 		if strs[i:i+6] == SECRET_KEY {
 			init_iterator = i + 6

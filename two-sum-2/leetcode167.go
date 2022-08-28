@@ -7,6 +7,31 @@
 
 package leetcode167
 
+// O(N^2)
+// Brute force with two pointers
+func twoSumBruteForce(numbers []int, target int) []int {
+	// i will be the behind pointer
+	// k will be the advanced pointer
+	if len(numbers) <= 2 {
+		return []int{1, 2}
+	}
+	i := 0
+	k := 1
+	for i < len(numbers) {
+		minus := target - numbers[i]
+		if k >= len(numbers) ||
+			numbers[k] > minus {
+			i += 1
+			k = i + 1
+			continue
+		} else if minus == numbers[k] {
+			return []int{i + 1, k + 1}
+		}
+		k += 1
+	}
+	return []int{}
+}
+
 // O(N)
 // we will have two points at the beginning and end of array
 func twoSum(numbers []int, target int) []int {
@@ -27,3 +52,4 @@ func twoSum(numbers []int, target int) []int {
 	}
 	return []int{}
 }
+

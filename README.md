@@ -23,7 +23,7 @@ go test [-v] // The -v flag is optional
 - [Longest Consecutive Sequence](https://github.com/ggcr/go-algorithms/tree/master/longest-consecutive-sequence) ([Leetcode 128](https://leetcode.com/problems/longest-consecutive-sequence/)): O(N) solution: first we build up the hashset, then we count steaks above and below (value+1 and value-1).
 ### Two Pointers
 - [Valid Palindrome](https://github.com/ggcr/go-algorithms/tree/master/valid-palyndrome) ([Leetcode 125](https://leetcode.com/problems/valid-palyndrome)): O(N) efficient solution, working with Go strings, runes or bytes is always a pleasure for its standard lib! **Faster than 100%** ⭐.
-- [Two Sum II](https://github.com/ggcr/go-algorithms/tree/master/two-sum-2) ([Leetcode 167](https://leetcode.com/problems/two-sum-ii-input-array-sorted)): O(N logN) solution, because the array is sorted we don't need the hashmap approach.
+- [Two Sum II](https://github.com/ggcr/go-algorithms/tree/master/two-sum-2) ([Leetcode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)): O(N^2) brute force solution and O(N) efficient solution, because the array is sorted we don't need the hashmap approach.
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

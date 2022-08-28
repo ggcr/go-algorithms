@@ -21,6 +21,8 @@ go test [-v] // The -v flag is optional
 - [Valid Sudoku](https://github.com/ggcr/go-algorithms/tree/master/valid-sudoku) ([Leetcode 36](https://leetcode.com/problems/valid-sudoku)): Efficient solution in O(N*M) **faster than 100%** ⭐.
 - [Encode and Decode Strings](https://github.com/ggcr/go-algorithms/tree/master/encode-decode-strings) ([Leetcode 271](https://leetcode.com/problems/encode-and-decode-strings/)): Two O(N) solutions (with and without the standard library).
 - [Longest Consecutive Sequence](https://github.com/ggcr/go-algorithms/tree/master/longest-consecutive-sequence) ([Leetcode 128](https://leetcode.com/problems/longest-consecutive-sequence/)): O(N) solution: first we build up the hashset, then we count steaks above and below (value+1 and value-1).
+### Two Pointers
+- [Valid Palindrome](https://github.com/ggcr/go-algorithms/tree/master/valid-palyndrome) ([Leetcode 125](https://leetcode.com/problems/valid-palyndrome)): O(N) efficient solution, working with Go strings, runes or bytes is always a pleasure for its standard lib! **Faster than 100%**⭐.
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

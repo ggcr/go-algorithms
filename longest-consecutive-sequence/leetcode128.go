@@ -17,7 +17,8 @@ func longestConsecutive(nums []int) int {
 	val := 0
 	max := 0
 	for _, value := range nums {
-		hashmap[value] = 0
+		hashmap[value] = 1
+
 	}
 	for value, _ := range hashmap {
 		if hashmap[value] != 1 {

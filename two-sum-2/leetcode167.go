@@ -7,24 +7,23 @@
 
 package leetcode167
 
+// O(N)
+// we will have two points at the beginning and end of array
 func twoSum(numbers []int, target int) []int {
-	// i will be the behind pointer
-	// k will be the advanced pointer
 	if len(numbers) <= 2 {
 		return []int{1, 2}
 	}
-	i := 0
-	k := 1
-	for i < len(numbers) {
-		if k >= len(numbers) ||
-			numbers[i]+numbers[k] > target {
-			i += 1
-			k = i + 1
-			continue
-		} else if numbers[i]+numbers[k] == target {
-			return []int{i + 1, k + 1}
+	ptr_in := 0
+	ptr_fi := len(numbers) - 1
+	for ptr_in < len(numbers) && ptr_fi >= 0 {
+		if numbers[ptr_in]+numbers[ptr_fi] > target {
+			ptr_fi -= 1
+		} else if numbers[ptr_in]+numbers[ptr_fi] < target {
+			ptr_in += 1
 		}
-		k += 1
+		if numbers[ptr_in]+numbers[ptr_fi] == target {
+			return []int{ptr_in + 1, ptr_fi + 1}
+		}
 	}
 	return []int{}
 }

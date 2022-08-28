@@ -43,7 +43,8 @@ func twoSum(numbers []int, target int) []int {
 	for ptr_in < len(numbers) && ptr_fi >= 0 {
 		if numbers[ptr_in]+numbers[ptr_fi] > target {
 			ptr_fi -= 1
-		} else if numbers[ptr_in]+numbers[ptr_fi] < target {
+		} 
+        if numbers[ptr_in]+numbers[ptr_fi] < target {
 			ptr_in += 1
 		}
 		if numbers[ptr_in]+numbers[ptr_fi] == target {

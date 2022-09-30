@@ -26,6 +26,7 @@ go test [-v] // The -v flag is optional
 - [Two Sum II](https://github.com/ggcr/go-algorithms/tree/master/two-sum-2) ([Leetcode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)): O(N^2) brute force solution and O(N) efficient solution, because the array is sorted we don't need the hashmap approach.
 - 🆘 [3Sum](https://github.com/ggcr/go-algorithms/tree/master/3Sum) ([Leetcode 15](https://leetcode.com/problems/3sum/)): O(N^3) brute force solution and O(N^2) Better approach in which we avoid duplicates by sorting the array and not using as first value (i) twice the same value. Then we reduce the rest of the two nums to a two sum problem.
 - [Container With Most Water](https://github.com/ggcr/go-algorithms/tree/master/Container-with-most-water) ([Leetcode 11](https://leetcode.com/problems/container-with-most-water/)): O(N) it is not a hard problem, it just requires problem specification.
+### Sliding Window
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

@@ -24,6 +24,7 @@ go test [-v] // The -v flag is optional
 ### Two Pointers
 - [Valid Palindrome](https://github.com/ggcr/go-algorithms/tree/master/valid-palyndrome) ([Leetcode 125](https://leetcode.com/problems/valid-palyndrome)): O(N) efficient solution, working with Go strings, runes or bytes is always a pleasure for its standard lib! **Faster than 100%** ⭐.
 - [Two Sum II](https://github.com/ggcr/go-algorithms/tree/master/two-sum-2) ([Leetcode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)): O(N^2) brute force solution and O(N) efficient solution, because the array is sorted we don't need the hashmap approach.
+- [3Sum](https://github.com/ggcr/go-algorithms/tree/master/3Sum) ([Leetcode 15](https://leetcode.com/problems/3sum/)): O(N^3) brute force solution.
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

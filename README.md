@@ -28,7 +28,7 @@ go test [-v] // The -v flag is optional
 - [Container With Most Water](https://github.com/ggcr/go-algorithms/tree/master/Two-Pointers/Container-with-most-water) ([Leetcode 11](https://leetcode.com/problems/container-with-most-water/)): O(N) time. It's not a hard problem it just requires problem specification.
 ### Sliding Window
 - [Best Time to Buy and Sell Stock](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/best-time-to-buy-and-sell-stock) ([Leetcode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)): Brute force O(N^2) and Sliding Window with 2 pointers in O(N) time. 
-- [Longests Substring without repeating characters](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/longest-substring-without-repeating-characters) ([Leetcode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)): O(N) time. It was tricky because our reference pointer is the tail, and typically we are so used to have the reference pointer the leading one.
+- [Longests Substring without repeating characters](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/longest-substring-without-repeating-characters) ([Leetcode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)): O(N) time. It was tricky because our reference pointer is the tail, and typically we are so used to have the reference pointer the leading one. **Faster than 100%** ⭐.
 - [](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/) ([Leetcode ](https://leetcode.com/problems//)): 
 
 ## Other

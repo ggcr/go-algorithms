@@ -1,28 +1,34 @@
 package leetcode121
 
-func maxArea(height []int) int {
-	max := 0
-	area := 0
+// Sliding window O(N)
+func maxProfit(prices []int) int {
+	if len(prices) <= 1 {
+		return 0
+	}
 
 	ptr_in := 0
-	ptr_fi := len(height) - 1
+	ptr_fi := 1
 
-	global_ctr := len(height) - 1
-	aux_mult := 0
+	out := 0
+	max := 0
 
-	for ptr_in < ptr_fi {
-		if height[ptr_in] >= height[ptr_fi] {
-			aux_mult = height[ptr_fi]
-			ptr_fi -= 1
+	for ptr_in < ptr_fi && ptr_in < len(prices) {
+		if prices[ptr_in] < prices[ptr_fi] {
+			out = prices[ptr_fi] - prices[ptr_in]
+			if out > max {
+				max = out
+			}
+			if ptr_fi == len(prices)-1 {
+				ptr_in += 1
+			} else {
+				ptr_fi += 1
+			}
 		} else {
-			aux_mult = height[ptr_in]
+			if ptr_in == ptr_fi-1 && ptr_fi != len(prices)-1 {
+				ptr_fi += 1
+			}
 			ptr_in += 1
 		}
-		area = aux_mult * global_ctr
-		if area > max {
-			max = area
-		}
-		global_ctr -= 1
 	}
 	return max
 }

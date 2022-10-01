@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestContainer(t *testing.T) {
+func TestBestTimeToBuyAndSellStock(t *testing.T) {
 	assertSlice := func(t testing.TB, got, want int) {
 		t.Helper()
 		if !reflect.DeepEqual(got, want) {
@@ -14,8 +14,14 @@ func TestContainer(t *testing.T) {
 	}
 
 	t.Run("test (1)", func(t *testing.T) {
-		got := maxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7})
-		want := 49
+		got := maxProfit([]int{7, 1, 5, 3, 6, 4})
+		want := 5
+		assertSlice(t, got, want)
+	})
+
+	t.Run("test (2)", func(t *testing.T) {
+		got := maxProfit([]int{7, 6, 4, 3, 1})
+		want := 0
 		assertSlice(t, got, want)
 	})
 }

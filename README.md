@@ -27,6 +27,9 @@ go test [-v] // The -v flag is optional
 - 🆘 [3Sum](https://github.com/ggcr/go-algorithms/tree/master/Two-Pointers/3Sum) ([Leetcode 15](https://leetcode.com/problems/3sum/)): O(N^3) brute force solution and O(N^2) Better approach in which we avoid duplicates by sorting the array and not using as first value (i) twice the same value. Then we reduce the rest of the two nums to a two sum problem.
 - [Container With Most Water](https://github.com/ggcr/go-algorithms/tree/master/Two-Pointers/Container-with-most-water) ([Leetcode 11](https://leetcode.com/problems/container-with-most-water/)): O(N) time. It's not a hard problem it just requires problem specification.
 ### Sliding Window
+- [Best Time to Buy and Sell Stock](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/best-time-to-buy-and-sell-stock) ([Leetcode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)): Brute force O(N^2) and Sliding Window with 2 pointers in O(N) time. 
+- [](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/) ([Leetcode ](https://leetcode.com/problems//)): 
+- [](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/) ([Leetcode ](https://leetcode.com/problems//)): 
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/Other/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

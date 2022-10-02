@@ -30,7 +30,8 @@ go test [-v] // The -v flag is optional
 - [Best Time to Buy and Sell Stock](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/best-time-to-buy-and-sell-stock) ([Leetcode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)): Brute force O(N^2) and Sliding Window with 2 pointers in O(N) time. 
 - [Longests Substring without repeating characters](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/longest-substring-without-repeating-characters) ([Leetcode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)): O(N) time. It was tricky because our reference pointer is the tail, and typically we are so used to have the reference pointer the leading one. **Faster than 100%** ⭐.
 - 🆘 [Longest Repeating Character Replacement](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/longest-repeating-character-replacement) ([Leetcode 424](https://leetcode.com/problems/longest-repeating-character-replacement/)): In O(N) time. This one was hard, did not know how to approach in a clear way. 
-
+## Amazon Online Assessment
+Succesfully solved the 2 problems in 55~ minutes for the Technical Online Assessment for a Software Engineer Intern role!
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/Other/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  
 - [leetcode-739](https://github.com/ggcr/go-algorithms/tree/master/Other/leetcode-739) ([Problem in Leetcode](https://leetcode.com/problems/daily-temperatures/)): Brute force implementation O(N^2)

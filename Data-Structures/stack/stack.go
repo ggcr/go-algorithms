@@ -17,3 +17,7 @@ func (s *stack) pop() int {
 func (s *stack) empty() bool {
 	return len(s.values) == 0
 }
+
+func (s *stack) get() int {
+	return s.values[0]
+}

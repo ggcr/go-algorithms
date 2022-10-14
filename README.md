@@ -36,6 +36,13 @@ go test [-v] // The -v flag is optional
 - [Permutation in String](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/permutation-in-string) ([Leetcode 567](https://leetcode.com/problems/permutation-in-string/)): O(N^2) approach with sliding window, could be much faster if Go could deepcopy a map in a easy way.
 - [Minimum Window Substring](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/minimum-window-substring) ([Leetcode 76](https://leetcode.com/problems/minimum-window-substring)): O(N) approach with sliding window that always mantains all elements of permutations except for one. Grow to find the desired value, Shrink to expand later on.
 - [Sliding Window Maximum](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/sliding-window-maximum) ([Leetcode 239](https://leetcode.com/problems/sliding-window-maximum)): O(N) approach with a deque.
+### Stack
+- [Valid Parentheses](https://github.com/ggcr/go-algorithms/tree/master/Stack/valid-parentheses) ([Leetcode 20](https://leetcode.com/problems/valid-parentheses)): O(N) approach with readable code using the stack and a hashmap.
+- [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
+- [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
+- [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
+- [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
+- [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/Other/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

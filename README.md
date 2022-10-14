@@ -33,7 +33,7 @@ go test [-v] // The -v flag is optional
 - [Longest Repeating Character Replacement](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/longest-repeating-character-replacement) ([Leetcode 424](https://leetcode.com/problems/longest-repeating-character-replacement/)): In O(N) time. This one was hard, did not know how to approach in a clear way. 
 - [Permutation in String](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/permutation-in-string) ([Leetcode 567](https://leetcode.com/problems/permutation-in-string/)): O(N^2) approach with sliding window, could be much faster if Go could deepcopy a map in a easy way.
 - [Minimum Window Substring](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/minimum-window-substring) ([Leetcode 76](https://leetcode.com/problems/minimum-window-substring)): O(N) approach with sliding window that always mantains all elements of permutations except for one. Grow to find the desired value, Shrink to expand later on.
-- [Sliding Window Maximum](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/sliding-window-maximum) ([Leetcode 239](https://leetcode.com/problems/sliding-window-maximum)): first tried the O(N) approach with a hashmap but then switched to a heap!
+- [Sliding Window Maximum](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/sliding-window-maximum) ([Leetcode 239](https://leetcode.com/problems/sliding-window-maximum)): O(N) approach with a deque.
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/Other/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

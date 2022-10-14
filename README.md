@@ -9,6 +9,8 @@ go test [-v] // The -v flag is optional
 
 ## Data Structures
 - [Linked List](https://github.com/ggcr/go-algorithms/tree/master/Data-Structures/linked-list)
+- [Deque](https://github.com/ggcr/go-algorithms/tree/master/Data-Structures/deque)
+- [Stack](https://github.com/ggcr/go-algorithms/tree/master/Data-Structures/stack)
 
 ## Neet-Code 150
 ### Arrays & Hashing

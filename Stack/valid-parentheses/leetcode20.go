@@ -22,13 +22,10 @@ func (s *stack) get() rune {
 	return s.values[0]
 }
 
-var paren = map[rune]int32{
-	'(': 1,
-	')': 2,
-	'[': 3,
-	']': 4,
-	'{': 5,
-	'}': 6,
+var paren = map[rune]rune{
+	')': '(',
+	']': '[',
+	'}': '{',
 }
 
 func isValid(s string) bool {
@@ -38,14 +35,8 @@ func isValid(s string) bool {
 	}
 
 	for _, v := range s {
-		if stack.empty() {
-			stack.push(v)
-			continue
-		}
-
-		// closing parenthesis
-		if paren[v]%2 == 0 {
-			if paren[stack.get()] != paren[v]-1 {
+		if x, ok := paren[v]; ok && !stack.empty() {
+			if stack.get() != x {
 				return false
 			}
 			stack.pop()

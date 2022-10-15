@@ -11,6 +11,7 @@ go test [-v] // The -v flag is optional
 - [Linked List](https://github.com/ggcr/go-algorithms/tree/master/Data-Structures/linked-list)
 - [Deque](https://github.com/ggcr/go-algorithms/tree/master/Data-Structures/deque)
 - [Stack](https://github.com/ggcr/go-algorithms/tree/master/Data-Structures/stack)
+    - [Min Stack](https://github.com/ggcr/go-algorithms/tree/master/Data-Structures/min-stack): Retrieves the min value in O(1) time.
 
 ## Neet-Code 150
 ### Arrays & Hashing

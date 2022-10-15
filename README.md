@@ -38,7 +38,7 @@ go test [-v] // The -v flag is optional
 - [Sliding Window Maximum](https://github.com/ggcr/go-algorithms/tree/master/Sliding-Window/sliding-window-maximum) ([Leetcode 239](https://leetcode.com/problems/sliding-window-maximum)): O(N) approach with a deque.
 ### Stack
 - [Valid Parentheses](https://github.com/ggcr/go-algorithms/tree/master/Stack/valid-parentheses) ([Leetcode 20](https://leetcode.com/problems/valid-parentheses)): O(N) approach with readable code using the stack and a hashmap.
-- [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
+- [Min Stack](https://github.com/ggcr/go-algorithms/tree/master/Stack/min-stack) ([Leetcode 155](https://leetcode.com/problems/min-stack)): In constant time O(1) by using an additional stack that keeps track of the minimum value at each node.
 - [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
 - [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
 - [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 

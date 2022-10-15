@@ -42,7 +42,7 @@ go test [-v] // The -v flag is optional
 - [Min Stack](https://github.com/ggcr/go-algorithms/tree/master/Stack/min-stack) ([Leetcode 155](https://leetcode.com/problems/min-stack)): In constant time O(1) by using an additional stack that keeps track of the minimum value at each node.
 - [Evaluate Reverse Polish Notation](https://github.com/ggcr/go-algorithms/tree/master/Stack/evaluate-reverse-polish-notation) ([Leetcode 150](https://leetcode.com/problems/evaluate-reverse-polish-notation)): O(N) time using the logic of Polish notation.
 - [Generate Parentheses](https://github.com/ggcr/go-algorithms/tree/master/Stack/generate-parentheses) ([Leetcode 22](https://leetcode.com/problems/generate-parentheses)): Tricky one, O(N) solution with Backtracking algorithm and a Stack to help keep track of the state. Recursion in Go is more strict than any other languages, we do not want memory leaks! **Faster than 100%** ⭐.
-- [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
+- [Daily Temperatures](https://github.com/ggcr/go-algorithms/tree/master/Stack/daily-temperatures) ([Leetcode 739](https://leetcode.com/problems/daily-temperatures)): Dynamic Stack solution keeping the local max in reverse order loop.
 - [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
 
 ## Other

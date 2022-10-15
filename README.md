@@ -40,7 +40,7 @@ go test [-v] // The -v flag is optional
 ### Stack
 - [Valid Parentheses](https://github.com/ggcr/go-algorithms/tree/master/Stack/valid-parentheses) ([Leetcode 20](https://leetcode.com/problems/valid-parentheses)): O(N) approach with readable code using the stack and a hashmap.
 - [Min Stack](https://github.com/ggcr/go-algorithms/tree/master/Stack/min-stack) ([Leetcode 155](https://leetcode.com/problems/min-stack)): In constant time O(1) by using an additional stack that keeps track of the minimum value at each node.
-- [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
+- [Evaluate Reverse Polish Notation](https://github.com/ggcr/go-algorithms/tree/master/Stack/evaluate-reverse-polish-notation) ([Leetcode 150](https://leetcode.com/problems/evaluate-reverse-polish-notation)): O(N) time using the logic of Polish notation.
 - [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
 - [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 
 - [](https://github.com/ggcr/go-algorithms/tree/master/Stack/) ([Leetcode ](https://leetcode.com/problems/)): 

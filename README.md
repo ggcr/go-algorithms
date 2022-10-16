@@ -43,7 +43,7 @@ go test [-v] // The -v flag is optional
 - [Evaluate Reverse Polish Notation](https://github.com/ggcr/go-algorithms/tree/master/Stack/evaluate-reverse-polish-notation) ([Leetcode 150](https://leetcode.com/problems/evaluate-reverse-polish-notation)): O(N) time using the logic of Polish notation.
 - [Generate Parentheses](https://github.com/ggcr/go-algorithms/tree/master/Stack/generate-parentheses) ([Leetcode 22](https://leetcode.com/problems/generate-parentheses)): Tricky one, O(N) solution with Backtracking algorithm and a Stack to help keep track of the state. Recursion in Go is more strict than any other languages, we do not want memory leaks! **Faster than 100%** ⭐.
 - [Daily Temperatures](https://github.com/ggcr/go-algorithms/tree/master/Stack/daily-temperatures) ([Leetcode 739](https://leetcode.com/problems/daily-temperatures)): Dynamic Stack solution keeping the local max in reverse order loop.
-- [Car Fleet](https://github.com/ggcr/go-algorithms/tree/master/Stack/car-fleet) ([Leetcode 853](https://leetcode.com/problems/car-fleet)): O(N) approach with a stack.
+- [Car Fleet](https://github.com/ggcr/go-algorithms/tree/master/Stack/car-fleet) ([Leetcode 853](https://leetcode.com/problems/car-fleet)): O(N logN) because it requires to sort the positions array and a hash map for the speeds.
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/Other/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  

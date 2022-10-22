@@ -13,6 +13,9 @@ go test [-v] // The -v flag is optional
 - [Stack](https://github.com/ggcr/go-algorithms/tree/master/Data-Structures/stack)
     - [Min Stack](https://github.com/ggcr/go-algorithms/tree/master/Data-Structures/min-stack): Retrieves the min value in O(1) time.
 
+## Algorithms
+- [Binary Search](https://github.com/ggcr/go-algorithms/tree/master/Algorithms/binary-search)
+
 ## Neet-Code 150
 ### Arrays & Hashing
 - [Contains Duplicate](https://github.com/ggcr/go-algorithms/tree/master/Array-And-Hashing/contains-duplicate) ([Leetcode 217](https://leetcode.com/problems/contains-duplicate/)): Brute force O(N^2), Merge Sort method O(N logN) and Map solution O(N).

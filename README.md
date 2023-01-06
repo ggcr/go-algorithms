@@ -1,5 +1,5 @@
 # go-algorithms
-This is a collection of algorithms and data-structure implemenetations in Go made by myself!
+This is a collection of algorithms and data-structure implemenetations in Go and Python made by myself!
 
 ## How this works
 I work with a TDD methodology. Each folder has its [name].go file and its [name]_test.go file. In order to run the go code just go to the desired path and run the following command:
@@ -48,11 +48,12 @@ go test [-v] // The -v flag is optional
 - [Daily Temperatures](https://github.com/ggcr/go-algorithms/tree/master/Stack/daily-temperatures) ([Leetcode 739](https://leetcode.com/problems/daily-temperatures)): Dynamic Stack solution keeping the local max in reverse order loop.
 - [Car Fleet](https://github.com/ggcr/go-algorithms/tree/master/Stack/car-fleet) ([Leetcode 853](https://leetcode.com/problems/car-fleet)): O(N logN) because it requires to sort the positions array and a hash map for the speeds.
 ### Binary Search
-- [Binary Search](https://github.com/ggcr/go-algorithms/tree/master/Binary-Search/search-a-2d-matrix) ([Leetcode 74](https://leetcode.com/problems/search-a-2d-matrix)): O(n log n) approach with binary search for a given row.
+- [Search a 2d Array](https://github.com/ggcr/go-algorithms/tree/master/Binary-Search/search-a-2d-matrix) ([Leetcode 74](https://leetcode.com/problems/search-a-2d-matrix)): O(n log n) approach with binary search for a given row.
+- [Koko Eating Bananas](https://github.com/ggcr/go-algorithms/tree/master/Binary-Search/koko-eating-bananas) ([Leetcode 875](https://leetcode.com/problems/koko-eating-bananas)): 
 
 ## Other
 - [skiena-1.30](https://github.com/ggcr/go-algorithms/tree/master/Other/skiena-1.30): Nearest Neighbour vs Closest Pair heuristic in the TSP problem.  
 - [leetcode-739](https://github.com/ggcr/go-algorithms/tree/master/Other/leetcode-739) ([Problem in Leetcode](https://leetcode.com/problems/daily-temperatures/)): Brute force implementation O(N^2)
 - [leetcode-61](https://github.com/ggcr/go-algorithms/tree/master/Other/leetcode-61) ([Problem in Leetcode](https://leetcode.com/problems/rotate-list/)): Linked List implementation from scratch and Rotation algorithm in O(N^2) and an improved version in O(N) time **faster than 100%** ⭐.
 - [leetcode-324](https://github.com/ggcr/go-algorithms/tree/master/Other/leetcode-324) ([Problem in Leetcode](https://leetcode.com/problems/wiggle-sort-ii/)): Wiggle Sort. Clear approach, but not optimal.
-
+- [leetcode-1833](https://github.com/ggcr/go-algorithms/tree/master/Other/leetcode-1833) ([Problem in Leetcode](https://leetcode.com/problems/maximum-ice-cream-bars)): Merge sort O(N log N).
